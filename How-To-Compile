@@ -6,8 +6,8 @@
 
 (3)mkdir prebuild;
 git clone https://android.googlesource.com/platform/prebuilts/build-tools;
-git clone https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86;
-git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/fb69815b96ce8dd4821078dd36ac92dde80a23e1/clang-r383902.tar.gz
+wget https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/0a0604336d4d1067aa1aaef8d3779b31fcee841d.tar.gz
 
 (4) add toolchain path to PATH environment variable
 
