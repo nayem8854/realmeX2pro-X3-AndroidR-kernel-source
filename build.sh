@@ -38,7 +38,10 @@ cp out/drivers/media/platform/msm/dvb/demux/mpq-dmx-hw-plugin.ko module
 cp out/drivers/media/platform/msm/broadcast/tspp.ko module
 cp out/drivers/video/backlight/lcd.ko module
 cp out/drivers/char/rdbg.ko module
-cp out/arch/arm64/boot/Image-dtb module
-cp out/arch/arm64/boot/Image-dtb-hdr module
+cp out/arch/arm64/boot/Image.gz-dtb module
 cp out/arch/arm64/boot/Image module
+cp out/arch/arm64/boot/Image.gz module
+cp out/arch/arm64/boot/dts/19696/sm8150-v2.dtb module
 cp out/arch/arm64/boot/dts/19696/sm8150-v2-mtp.dtb module
+
+zip -r compiled-kernel.zip module
